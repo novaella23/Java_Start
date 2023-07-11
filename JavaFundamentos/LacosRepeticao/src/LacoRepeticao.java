@@ -27,5 +27,15 @@ public class LacoRepeticao {
 		} while (qtdVezes <= 10);
 		System.out.println("Saí do laço e executei " + (qtdVezes - 1) + " vezes.");
 
+		
+		System.out.println("=====================================");
+		
+		for (int qtdVezes1 = 1; qtdVezes1 <= 10; qtdVezes1++) {
+			System.out.println("Estou fazendo a " + qtdVezes1 + "ª vez");
+			if (qtdVezes1 == 10) {
+				System.out.println("Executei " + qtdVezes1 + " vezes");
+			}
+		}
+	
 	}
 }
